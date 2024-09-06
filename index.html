@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    
+            <h1>HI HI HI</h1>
+        <div id="root">
+            <!-- <h1>Hello World !</h1>Using html -->
+              <h1>Hello000000000000000000000000000</h1> 
+              <!-- If heading is already here, and we try to create heading using createElement , -> It will get replaced(root.render is replacing) -React will take control over this div --> 
+        </div>
+        <!-- <script>
+           const heading =  document.createElement("h1");
+           heading.innerHTML = "Hello World from JS!";
+           document.getElementById("root");
+           root.appendChild(heading);
+        </script> -->
+        <h1>Hello Hello Hello</h1>
+
+        <!-- from cdn link -->
+        <!-- //Not required -->
+        <!-- <script 
+            crossorigin 
+            src="https://unpkg.com/react@18/umd/react.development.js"
+         ></script>
+        <script 
+            crossorigin
+            src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+        ></script> -->
+
+        <!-- By the above code, we now have the super powers of react -> Now browsers will be able to understand-->
+
+       <!-- <script>
+        const heading = React.createElement("h1",{},"Hello from React Self");
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(heading);
+       </script> -->
+
+       <script type="module" src="./App.js"></script> 
+       <!-- Browser scripts cannot have imports or exports. This gets written if we dont write type="module"-->
+
+       <!-- Note: Order of code is also important -->
+    <!-- We need to keep React code above app.js because the code inside app.js is using react -->
+</body>
+</html>
+
+<!-- React is a library beacause it can work on independently in a small portion of app. -->

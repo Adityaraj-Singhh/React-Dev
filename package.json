@@ -1,0 +1,22 @@
+{
+  "name": "react-ep1---inception",
+  "version": "1.0.0",
+  "description": "React Course",
+ 
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Hello"
+  ],
+  "author": "Adityraj Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
